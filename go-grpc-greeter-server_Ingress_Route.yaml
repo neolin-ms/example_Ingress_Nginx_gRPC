@@ -22,6 +22,6 @@ spec:
   # This secret must exist beforehand
   # The cert must also contain the subj-name grpctest.dev.mydomain.com
   # https://github.com/kubernetes/ingress-nginx/blob/master/docs/examples/PREREQUISITES.md#tls-certificates
-  - secretName: aks-ingress-tls
+  - secretName: aks-grpc-tls
     hosts:
       - demo.azure.com
