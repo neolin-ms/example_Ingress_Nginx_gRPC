@@ -15,7 +15,7 @@ spec:
         app: go-grpc-greeter-server
     spec:
       containers:
-      - image: myacr0308.azurecr.io/go-grpc-greeter-server:1.0.0   # Edit this for your reponame
+      - image: myacr042223.azurecr.io/go-grpc-greeter-server:1.0.0   # Edit this for your reponame
         resources:
           limits:
             cpu: 100m
